@@ -7,7 +7,7 @@ $(document).ready(function() {
         var row = rows[i].split("\t");
         var tr = $("<tr>");
   
-        tr.append($("<td>").text('' + Date()));
+        tr.append($("<td>").text('' + new Date().toLocaleDateString("vn-VN")));
         tr.append($("<td>").text(row[0]));
         tr.append($("<td>").text(row[2]));
         tr.append($("<td>").html('<a href="' + '#' + '">' + '#' + '</a>'));
