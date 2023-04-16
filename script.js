@@ -10,7 +10,7 @@ $(document).ready(function() {
         tr.append($("<td>").text('' + new Date().toLocaleDateString("vn-VN")));
         tr.append($("<td>").text(row[0]));
         tr.append($("<td>").text(row[2]));
-        tr.append($("<td>").html('<a href="' + '#' + '">' + '#' + '</a>'));
+        tr.append($("<td>").html('<a href="' + row[3] + '">' + row[3] + '</a>'));
         tr.append($("<td>").html('<img src="' + row[1] + '" width="100" height="100">'));
         tr.append($("<td>").text('1'));
   
